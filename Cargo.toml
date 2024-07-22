@@ -5,4 +5,4 @@ edition = "2021"
 
 [dependencies]
 clap = { version = "4.5.9", features = ["deprecated", "derive", "unicode"] }
-smithay = "0.3.0"
+smithay = { git = "https://github.com/Smithay/smithay.git", version = "0.3.0", branch = "master" }
